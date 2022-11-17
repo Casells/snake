@@ -15,4 +15,56 @@ body {
     background-size: 64px;
 }
 
+#scope {
+    position: fixed;
+    top: 25px;
+    left: 50px;
+    font-size: 48px;
+    color: aliceblue;
+    z-index: 99999;
+}
 
+#menu {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top:50%;
+    width: 400px;
+    height: 400px;
+    z-index: 9999;
+    background: brown;
+    font-size: 24px;
+    color: azure;
+    padding: 0;
+    border-radius: 45px;
+}
+
+#menu .header {
+    text-align: center;
+    width: 100%;
+}
+#menu .content {
+    text-align: center;
+    width: 100%;
+}
+
+#menu .content .menu-item button {
+    background: #38001c;
+    color: azure;
+    font-size: 16px;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#menu .content .menu-item button:hover {
+    background: #280014;
+}
+
+
+#menu .bottom {
+    position: absolute;
+    bottom: 0;
+    padding: 40px;
+    width: 100%;
+}
