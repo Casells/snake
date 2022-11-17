@@ -1,0 +1,18 @@
+body {
+    background: #002f38;
+}
+
+#area {
+    background: #380011;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top:50%
+}
+
+#area > canvas {
+    background: url('../assets/Lacey Square SVG.png');
+    background-size: 64px;
+}
+
+
