@@ -223,10 +223,12 @@ const restartGame = () => {
 const randomColor = () => "#"+ Math.floor(Math.random()*16777215).toString(16);
 
 const startSidor = () => {
-    canvas.style.backgroundImage = "url('../assets/boomb.png')"
+    //canvas.style.backgroundImage = "url('../assets/boomb.png')"
+    canvas.classList.add("reference")
     allowSidor = true;
     setTimeout(() => {
-        canvas.style.backgroundImage = "url('../assets/Lacey Square SVG.png')"
+        canvas.classList.remove("reference")
+        //canvas.style.backgroundImage = "url('../assets/Lacey Square SVG.png')"
         allowSidor = false;
     }, 8000)
 }

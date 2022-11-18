@@ -68,3 +68,8 @@ body {
     padding: 40px;
     width: 100%;
 }
+
+#area .reference {
+    background-image: url('../assets/boomb.png')!important;
+    background-size: 64px;
+}
